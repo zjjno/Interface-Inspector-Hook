@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCA1D37206136E200A351AA /* Interface.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDCA1D36206136E200A351AA /* Interface.mm */; };
+		DDCA1D982061375300A351AA /* CDStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D3E2061375300A351AA /* CDStructures.h */; };
+		DDCA1D992061375300A351AA /* CFobLicVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D3F2061375300A351AA /* CFobLicVerifier.h */; };
+		DDCA1D9A2061375400A351AA /* GCDAsyncReadPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D402061375300A351AA /* GCDAsyncReadPacket.h */; };
+		DDCA1D9B2061375400A351AA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D412061375300A351AA /* GCDAsyncSocket.h */; };
+		DDCA1D9C2061375400A351AA /* GCDAsyncSocketPreBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D422061375300A351AA /* GCDAsyncSocketPreBuffer.h */; };
+		DDCA1D9D2061375400A351AA /* GCDAsyncSpecialPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D432061375300A351AA /* GCDAsyncSpecialPacket.h */; };
+		DDCA1D9E2061375400A351AA /* GCDAsyncWritePacket.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D442061375300A351AA /* GCDAsyncWritePacket.h */; };
+		DDCA1D9F2061375400A351AA /* NSApplicationDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D452061375300A351AA /* NSApplicationDelegate-Protocol.h */; };
+		DDCA1DA02061375400A351AA /* NSControlTextEditingDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D462061375300A351AA /* NSControlTextEditingDelegate-Protocol.h */; };
+		DDCA1DA12061375400A351AA /* NSKeyedUnarchiverDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D472061375300A351AA /* NSKeyedUnarchiverDelegate-Protocol.h */; };
+		DDCA1DA22061375400A351AA /* NSMenuDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D482061375300A351AA /* NSMenuDelegate-Protocol.h */; };
+		DDCA1DA32061375400A351AA /* NSNetServiceDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D492061375300A351AA /* NSNetServiceDelegate-Protocol.h */; };
+		DDCA1DA42061375400A351AA /* NSObject-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4A2061375300A351AA /* NSObject-Protocol.h */; };
+		DDCA1DA52061375400A351AA /* NSOutlineViewDataSource-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4B2061375300A351AA /* NSOutlineViewDataSource-Protocol.h */; };
+		DDCA1DA62061375400A351AA /* NSOutlineViewDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4C2061375300A351AA /* NSOutlineViewDelegate-Protocol.h */; };
+		DDCA1DA72061375400A351AA /* NSPasteboardReading-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4D2061375300A351AA /* NSPasteboardReading-Protocol.h */; };
+		DDCA1DA82061375400A351AA /* NSPasteboardWriting-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4E2061375300A351AA /* NSPasteboardWriting-Protocol.h */; };
+		DDCA1DA92061375400A351AA /* NSRunningApplication-SMConnected.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D4F2061375300A351AA /* NSRunningApplication-SMConnected.h */; };
+		DDCA1DAA2061375400A351AA /* NSRunningApplication-SMName.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D502061375300A351AA /* NSRunningApplication-SMName.h */; };
+		DDCA1DAB2061375400A351AA /* NSRunningApplication-SMSandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D512061375300A351AA /* NSRunningApplication-SMSandbox.h */; };
+		DDCA1DAC2061375400A351AA /* NSTableViewDataSource-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D522061375300A351AA /* NSTableViewDataSource-Protocol.h */; };
+		DDCA1DAD2061375400A351AA /* NSTableViewDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D532061375300A351AA /* NSTableViewDelegate-Protocol.h */; };
+		DDCA1DAE2061375400A351AA /* NSTextFieldDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D542061375300A351AA /* NSTextFieldDelegate-Protocol.h */; };
+		DDCA1DAF2061375400A351AA /* NSTokenFieldDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D552061375300A351AA /* NSTokenFieldDelegate-Protocol.h */; };
+		DDCA1DB02061375400A351AA /* NSWindowDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D562061375300A351AA /* NSWindowDelegate-Protocol.h */; };
+		DDCA1DB12061375400A351AA /* SMAboutWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D572061375300A351AA /* SMAboutWindowController.h */; };
+		DDCA1DB22061375400A351AA /* SMAcknowledgmentsWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D582061375300A351AA /* SMAcknowledgmentsWindowController.h */; };
+		DDCA1DB32061375400A351AA /* SMAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D592061375300A351AA /* SMAppDelegate.h */; };
+		DDCA1DB42061375400A351AA /* SMAttachWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5A2061375300A351AA /* SMAttachWindowController.h */; };
+		DDCA1DB52061375400A351AA /* SMAttachWindowControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5B2061375300A351AA /* SMAttachWindowControllerDelegate-Protocol.h */; };
+		DDCA1DB62061375400A351AA /* SMAuthorizedInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5C2061375300A351AA /* SMAuthorizedInjector.h */; };
+		DDCA1DB72061375400A351AA /* SMAutoresizingSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5D2061375300A351AA /* SMAutoresizingSelectionView.h */; };
+		DDCA1DB82061375400A351AA /* SMComponentContentController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5E2061375300A351AA /* SMComponentContentController.h */; };
+		DDCA1DB92061375400A351AA /* SMComponentContentControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D5F2061375300A351AA /* SMComponentContentControllerDelegate-Protocol.h */; };
+		DDCA1DBA2061375400A351AA /* SMComponentOutlineController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D602061375300A351AA /* SMComponentOutlineController.h */; };
+		DDCA1DBB2061375400A351AA /* SMComponentOutlineControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D612061375300A351AA /* SMComponentOutlineControllerDelegate-Protocol.h */; };
+		DDCA1DBC2061375400A351AA /* SMComponentPathController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D622061375300A351AA /* SMComponentPathController.h */; };
+		DDCA1DBD2061375400A351AA /* SMComponentPathControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D632061375300A351AA /* SMComponentPathControllerDelegate-Protocol.h */; };
+		DDCA1DBE2061375400A351AA /* SMComponentsInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D642061375300A351AA /* SMComponentsInspector.h */; };
+		DDCA1DBF2061375400A351AA /* SMComponentStatusTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D652061375300A351AA /* SMComponentStatusTransformer.h */; };
+		DDCA1DC02061375400A351AA /* SMConnectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D662061375300A351AA /* SMConnectedView.h */; };
+		DDCA1DC12061375400A351AA /* SMDeclarativeInspectorGeneratorDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D672061375300A351AA /* SMDeclarativeInspectorGeneratorDelegate-Protocol.h */; };
+		DDCA1DC22061375400A351AA /* SMEnterLicenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D682061375300A351AA /* SMEnterLicenseViewController.h */; };
+		DDCA1DC32061375400A351AA /* SMEnterLicenseViewControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D692061375300A351AA /* SMEnterLicenseViewControllerDelegate-Protocol.h */; };
+		DDCA1DC42061375400A351AA /* SMImageAndTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6A2061375300A351AA /* SMImageAndTextFieldCell.h */; };
+		DDCA1DC52061375400A351AA /* SMInjector-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6B2061375300A351AA /* SMInjector-Protocol.h */; };
+		DDCA1DC62061375400A351AA /* SMInjectorInstaller-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6C2061375300A351AA /* SMInjectorInstaller-Protocol.h */; };
+		DDCA1DC72061375400A351AA /* SMInspectorAdvancedPreTenFourDateFormatProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6D2061375300A351AA /* SMInspectorAdvancedPreTenFourDateFormatProperty.h */; };
+		DDCA1DC82061375400A351AA /* SMInspectorAdvancedTenFourDateFormatProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6E2061375300A351AA /* SMInspectorAdvancedTenFourDateFormatProperty.h */; };
+		DDCA1DC92061375400A351AA /* SMInspectorAutoresizingProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D6F2061375300A351AA /* SMInspectorAutoresizingProperty.h */; };
+		DDCA1DCA2061375400A351AA /* SMInspectorBasicPreTenFourDateFormatProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D702061375300A351AA /* SMInspectorBasicPreTenFourDateFormatProperty.h */; };
+		DDCA1DCB2061375400A351AA /* SMInspectorBasicTenFourDateFormatProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D712061375300A351AA /* SMInspectorBasicTenFourDateFormatProperty.h */; };
+		DDCA1DCC2061375400A351AA /* SMInspectorDateFormatSampleProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D722061375300A351AA /* SMInspectorDateFormatSampleProperty.h */; };
+		DDCA1DCD2061375400A351AA /* SMInspectorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D732061375300A351AA /* SMInspectorFactory.h */; };
+		DDCA1DCE2061375400A351AA /* SMInspectorPoint3DProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D742061375300A351AA /* SMInspectorPoint3DProperty.h */; };
+		DDCA1DCF2061375400A351AA /* SMInspectorPrioritiesListProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D752061375300A351AA /* SMInspectorPrioritiesListProperty.h */; };
+		DDCA1DD02061375400A351AA /* SMInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D762061375300A351AA /* SMInterface.h */; };
+		DDCA1DD12061375400A351AA /* SMInterfaceComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D772061375300A351AA /* SMInterfaceComponent.h */; };
+		DDCA1DD22061375400A351AA /* SMInterfaceComponentDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D782061375300A351AA /* SMInterfaceComponentDelegate-Protocol.h */; };
+		DDCA1DD32061375400A351AA /* SMInterfaceConnectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D792061375300A351AA /* SMInterfaceConnectionController.h */; };
+		DDCA1DD42061375400A351AA /* SMInterfaceConnectionControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7A2061375300A351AA /* SMInterfaceConnectionControllerDelegate-Protocol.h */; };
+		DDCA1DD52061375400A351AA /* SMInterfaceServer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7B2061375300A351AA /* SMInterfaceServer.h */; };
+		DDCA1DD62061375400A351AA /* SMInterfaceServerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7C2061375300A351AA /* SMInterfaceServerDelegate-Protocol.h */; };
+		DDCA1DD72061375400A351AA /* SMInterfaceTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7D2061375300A351AA /* SMInterfaceTreeNode.h */; };
+		DDCA1DD82061375400A351AA /* SMInterpolatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7E2061375300A351AA /* SMInterpolatedImageView.h */; };
+		DDCA1DD92061375400A351AA /* SMInvalidLicenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D7F2061375300A351AA /* SMInvalidLicenseViewController.h */; };
+		DDCA1DDA2061375400A351AA /* SMInvalidLicenseViewControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D802061375300A351AA /* SMInvalidLicenseViewControllerDelegate-Protocol.h */; };
+		DDCA1DDB2061375400A351AA /* SMJumpToInstanceSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D812061375300A351AA /* SMJumpToInstanceSheetController.h */; };
+		DDCA1DDC2061375400A351AA /* SMJumpToInstanceSheetControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D822061375300A351AA /* SMJumpToInstanceSheetControllerDelegate-Protocol.h */; };
+		DDCA1DDD2061375400A351AA /* SMLicenseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D832061375300A351AA /* SMLicenseManager.h */; };
+		DDCA1DDE2061375400A351AA /* SMLicenseWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D842061375300A351AA /* SMLicenseWindowController.h */; };
+		DDCA1DDF2061375400A351AA /* SMLicenseWindowControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D852061375300A351AA /* SMLicenseWindowControllerDelegate-Protocol.h */; };
+		DDCA1DE02061375400A351AA /* SMMainWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D862061375300A351AA /* SMMainWindowController.h */; };
+		DDCA1DE12061375400A351AA /* SMNSEdgeInsetsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D872061375300A351AA /* SMNSEdgeInsetsTransformer.h */; };
+		DDCA1DE22061375400A351AA /* SMOutlineTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D882061375300A351AA /* SMOutlineTableCellView.h */; };
+		DDCA1DE32061375400A351AA /* SMPathCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D892061375300A351AA /* SMPathCell.h */; };
+		DDCA1DE42061375400A351AA /* SMPathComponentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8A2061375300A351AA /* SMPathComponentCell.h */; };
+		DDCA1DE52061375400A351AA /* SMProgressSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8B2061375300A351AA /* SMProgressSheetController.h */; };
+		DDCA1DE62061375400A351AA /* SMSCNVector3Transformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8C2061375300A351AA /* SMSCNVector3Transformer.h */; };
+		DDCA1DE72061375400A351AA /* SMServer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8D2061375300A351AA /* SMServer.h */; };
+		DDCA1DE82061375400A351AA /* SMServerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8E2061375300A351AA /* SMServerDelegate-Protocol.h */; };
+		DDCA1DE92061375400A351AA /* SMService.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D8F2061375300A351AA /* SMService.h */; };
+		DDCA1DEA2061375400A351AA /* SMServiceDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D902061375300A351AA /* SMServiceDelegate-Protocol.h */; };
+		DDCA1DEB2061375400A351AA /* SMTableRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D912061375300A351AA /* SMTableRowView.h */; };
+		DDCA1DEC2061375400A351AA /* SMToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D922061375300A351AA /* SMToken.h */; };
+		DDCA1DED2061375400A351AA /* SMTypesFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D932061375300A351AA /* SMTypesFactory.h */; };
+		DDCA1DEE2061375400A351AA /* SMValidLicenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D942061375300A351AA /* SMValidLicenseViewController.h */; };
+		DDCA1DEF2061375400A351AA /* SMValidLicenseViewControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D952061375300A351AA /* SMValidLicenseViewControllerDelegate-Protocol.h */; };
+		DDCA1DF02061375400A351AA /* SMWaitingWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D962061375300A351AA /* SMWaitingWindowController.h */; };
+		DDCA1DF12061375400A351AA /* SUUpdaterDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCA1D972061375300A351AA /* SUUpdaterDelegate-Protocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDCA1D31206136E200A351AA /* libInterface.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libInterface.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA1D36206136E200A351AA /* Interface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Interface.mm; sourceTree = "<group>"; };
+		DDCA1D3E2061375300A351AA /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		DDCA1D3F2061375300A351AA /* CFobLicVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicVerifier.h; sourceTree = "<group>"; };
+		DDCA1D402061375300A351AA /* GCDAsyncReadPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncReadPacket.h; sourceTree = "<group>"; };
+		DDCA1D412061375300A351AA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DDCA1D422061375300A351AA /* GCDAsyncSocketPreBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocketPreBuffer.h; sourceTree = "<group>"; };
+		DDCA1D432061375300A351AA /* GCDAsyncSpecialPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSpecialPacket.h; sourceTree = "<group>"; };
+		DDCA1D442061375300A351AA /* GCDAsyncWritePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncWritePacket.h; sourceTree = "<group>"; };
+		DDCA1D452061375300A351AA /* NSApplicationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplicationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D462061375300A351AA /* NSControlTextEditingDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSControlTextEditingDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D472061375300A351AA /* NSKeyedUnarchiverDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiverDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D482061375300A351AA /* NSMenuDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMenuDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D492061375300A351AA /* NSNetServiceDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNetServiceDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4A2061375300A351AA /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4B2061375300A351AA /* NSOutlineViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOutlineViewDataSource-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4C2061375300A351AA /* NSOutlineViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOutlineViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4D2061375300A351AA /* NSPasteboardReading-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboardReading-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4E2061375300A351AA /* NSPasteboardWriting-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboardWriting-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D4F2061375300A351AA /* NSRunningApplication-SMConnected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunningApplication-SMConnected.h"; sourceTree = "<group>"; };
+		DDCA1D502061375300A351AA /* NSRunningApplication-SMName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunningApplication-SMName.h"; sourceTree = "<group>"; };
+		DDCA1D512061375300A351AA /* NSRunningApplication-SMSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunningApplication-SMSandbox.h"; sourceTree = "<group>"; };
+		DDCA1D522061375300A351AA /* NSTableViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableViewDataSource-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D532061375300A351AA /* NSTableViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D542061375300A351AA /* NSTextFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextFieldDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D552061375300A351AA /* NSTokenFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTokenFieldDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D562061375300A351AA /* NSWindowDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindowDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D572061375300A351AA /* SMAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAboutWindowController.h; sourceTree = "<group>"; };
+		DDCA1D582061375300A351AA /* SMAcknowledgmentsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAcknowledgmentsWindowController.h; sourceTree = "<group>"; };
+		DDCA1D592061375300A351AA /* SMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		DDCA1D5A2061375300A351AA /* SMAttachWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAttachWindowController.h; sourceTree = "<group>"; };
+		DDCA1D5B2061375300A351AA /* SMAttachWindowControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMAttachWindowControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D5C2061375300A351AA /* SMAuthorizedInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAuthorizedInjector.h; sourceTree = "<group>"; };
+		DDCA1D5D2061375300A351AA /* SMAutoresizingSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAutoresizingSelectionView.h; sourceTree = "<group>"; };
+		DDCA1D5E2061375300A351AA /* SMComponentContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMComponentContentController.h; sourceTree = "<group>"; };
+		DDCA1D5F2061375300A351AA /* SMComponentContentControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMComponentContentControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D602061375300A351AA /* SMComponentOutlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMComponentOutlineController.h; sourceTree = "<group>"; };
+		DDCA1D612061375300A351AA /* SMComponentOutlineControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMComponentOutlineControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D622061375300A351AA /* SMComponentPathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMComponentPathController.h; sourceTree = "<group>"; };
+		DDCA1D632061375300A351AA /* SMComponentPathControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMComponentPathControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D642061375300A351AA /* SMComponentsInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMComponentsInspector.h; sourceTree = "<group>"; };
+		DDCA1D652061375300A351AA /* SMComponentStatusTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMComponentStatusTransformer.h; sourceTree = "<group>"; };
+		DDCA1D662061375300A351AA /* SMConnectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMConnectedView.h; sourceTree = "<group>"; };
+		DDCA1D672061375300A351AA /* SMDeclarativeInspectorGeneratorDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMDeclarativeInspectorGeneratorDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D682061375300A351AA /* SMEnterLicenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEnterLicenseViewController.h; sourceTree = "<group>"; };
+		DDCA1D692061375300A351AA /* SMEnterLicenseViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMEnterLicenseViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D6A2061375300A351AA /* SMImageAndTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMImageAndTextFieldCell.h; sourceTree = "<group>"; };
+		DDCA1D6B2061375300A351AA /* SMInjector-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInjector-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D6C2061375300A351AA /* SMInjectorInstaller-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInjectorInstaller-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D6D2061375300A351AA /* SMInspectorAdvancedPreTenFourDateFormatProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorAdvancedPreTenFourDateFormatProperty.h; sourceTree = "<group>"; };
+		DDCA1D6E2061375300A351AA /* SMInspectorAdvancedTenFourDateFormatProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorAdvancedTenFourDateFormatProperty.h; sourceTree = "<group>"; };
+		DDCA1D6F2061375300A351AA /* SMInspectorAutoresizingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorAutoresizingProperty.h; sourceTree = "<group>"; };
+		DDCA1D702061375300A351AA /* SMInspectorBasicPreTenFourDateFormatProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorBasicPreTenFourDateFormatProperty.h; sourceTree = "<group>"; };
+		DDCA1D712061375300A351AA /* SMInspectorBasicTenFourDateFormatProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorBasicTenFourDateFormatProperty.h; sourceTree = "<group>"; };
+		DDCA1D722061375300A351AA /* SMInspectorDateFormatSampleProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorDateFormatSampleProperty.h; sourceTree = "<group>"; };
+		DDCA1D732061375300A351AA /* SMInspectorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorFactory.h; sourceTree = "<group>"; };
+		DDCA1D742061375300A351AA /* SMInspectorPoint3DProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorPoint3DProperty.h; sourceTree = "<group>"; };
+		DDCA1D752061375300A351AA /* SMInspectorPrioritiesListProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInspectorPrioritiesListProperty.h; sourceTree = "<group>"; };
+		DDCA1D762061375300A351AA /* SMInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterface.h; sourceTree = "<group>"; };
+		DDCA1D772061375300A351AA /* SMInterfaceComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterfaceComponent.h; sourceTree = "<group>"; };
+		DDCA1D782061375300A351AA /* SMInterfaceComponentDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInterfaceComponentDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D792061375300A351AA /* SMInterfaceConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterfaceConnectionController.h; sourceTree = "<group>"; };
+		DDCA1D7A2061375300A351AA /* SMInterfaceConnectionControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInterfaceConnectionControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D7B2061375300A351AA /* SMInterfaceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterfaceServer.h; sourceTree = "<group>"; };
+		DDCA1D7C2061375300A351AA /* SMInterfaceServerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInterfaceServerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D7D2061375300A351AA /* SMInterfaceTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterfaceTreeNode.h; sourceTree = "<group>"; };
+		DDCA1D7E2061375300A351AA /* SMInterpolatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInterpolatedImageView.h; sourceTree = "<group>"; };
+		DDCA1D7F2061375300A351AA /* SMInvalidLicenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInvalidLicenseViewController.h; sourceTree = "<group>"; };
+		DDCA1D802061375300A351AA /* SMInvalidLicenseViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMInvalidLicenseViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D812061375300A351AA /* SMJumpToInstanceSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJumpToInstanceSheetController.h; sourceTree = "<group>"; };
+		DDCA1D822061375300A351AA /* SMJumpToInstanceSheetControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMJumpToInstanceSheetControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D832061375300A351AA /* SMLicenseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLicenseManager.h; sourceTree = "<group>"; };
+		DDCA1D842061375300A351AA /* SMLicenseWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLicenseWindowController.h; sourceTree = "<group>"; };
+		DDCA1D852061375300A351AA /* SMLicenseWindowControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMLicenseWindowControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D862061375300A351AA /* SMMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMainWindowController.h; sourceTree = "<group>"; };
+		DDCA1D872061375300A351AA /* SMNSEdgeInsetsTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNSEdgeInsetsTransformer.h; sourceTree = "<group>"; };
+		DDCA1D882061375300A351AA /* SMOutlineTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOutlineTableCellView.h; sourceTree = "<group>"; };
+		DDCA1D892061375300A351AA /* SMPathCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPathCell.h; sourceTree = "<group>"; };
+		DDCA1D8A2061375300A351AA /* SMPathComponentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPathComponentCell.h; sourceTree = "<group>"; };
+		DDCA1D8B2061375300A351AA /* SMProgressSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMProgressSheetController.h; sourceTree = "<group>"; };
+		DDCA1D8C2061375300A351AA /* SMSCNVector3Transformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSCNVector3Transformer.h; sourceTree = "<group>"; };
+		DDCA1D8D2061375300A351AA /* SMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMServer.h; sourceTree = "<group>"; };
+		DDCA1D8E2061375300A351AA /* SMServerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMServerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D8F2061375300A351AA /* SMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMService.h; sourceTree = "<group>"; };
+		DDCA1D902061375300A351AA /* SMServiceDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMServiceDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D912061375300A351AA /* SMTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTableRowView.h; sourceTree = "<group>"; };
+		DDCA1D922061375300A351AA /* SMToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMToken.h; sourceTree = "<group>"; };
+		DDCA1D932061375300A351AA /* SMTypesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTypesFactory.h; sourceTree = "<group>"; };
+		DDCA1D942061375300A351AA /* SMValidLicenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMValidLicenseViewController.h; sourceTree = "<group>"; };
+		DDCA1D952061375300A351AA /* SMValidLicenseViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMValidLicenseViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		DDCA1D962061375300A351AA /* SMWaitingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWaitingWindowController.h; sourceTree = "<group>"; };
+		DDCA1D972061375300A351AA /* SUUpdaterDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SUUpdaterDelegate-Protocol.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCA1D2E206136E200A351AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCA1D28206136E200A351AA = {
+			isa = PBXGroup;
+			children = (
+				DDCA1D33206136E200A351AA /* Interface */,
+				DDCA1D32206136E200A351AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCA1D32206136E200A351AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA1D31206136E200A351AA /* libInterface.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCA1D33206136E200A351AA /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA1D3D2061375300A351AA /* head */,
+				DDCA1D36206136E200A351AA /* Interface.mm */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		DDCA1D3D2061375300A351AA /* head */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA1D3E2061375300A351AA /* CDStructures.h */,
+				DDCA1D3F2061375300A351AA /* CFobLicVerifier.h */,
+				DDCA1D402061375300A351AA /* GCDAsyncReadPacket.h */,
+				DDCA1D412061375300A351AA /* GCDAsyncSocket.h */,
+				DDCA1D422061375300A351AA /* GCDAsyncSocketPreBuffer.h */,
+				DDCA1D432061375300A351AA /* GCDAsyncSpecialPacket.h */,
+				DDCA1D442061375300A351AA /* GCDAsyncWritePacket.h */,
+				DDCA1D452061375300A351AA /* NSApplicationDelegate-Protocol.h */,
+				DDCA1D462061375300A351AA /* NSControlTextEditingDelegate-Protocol.h */,
+				DDCA1D472061375300A351AA /* NSKeyedUnarchiverDelegate-Protocol.h */,
+				DDCA1D482061375300A351AA /* NSMenuDelegate-Protocol.h */,
+				DDCA1D492061375300A351AA /* NSNetServiceDelegate-Protocol.h */,
+				DDCA1D4A2061375300A351AA /* NSObject-Protocol.h */,
+				DDCA1D4B2061375300A351AA /* NSOutlineViewDataSource-Protocol.h */,
+				DDCA1D4C2061375300A351AA /* NSOutlineViewDelegate-Protocol.h */,
+				DDCA1D4D2061375300A351AA /* NSPasteboardReading-Protocol.h */,
+				DDCA1D4E2061375300A351AA /* NSPasteboardWriting-Protocol.h */,
+				DDCA1D4F2061375300A351AA /* NSRunningApplication-SMConnected.h */,
+				DDCA1D502061375300A351AA /* NSRunningApplication-SMName.h */,
+				DDCA1D512061375300A351AA /* NSRunningApplication-SMSandbox.h */,
+				DDCA1D522061375300A351AA /* NSTableViewDataSource-Protocol.h */,
+				DDCA1D532061375300A351AA /* NSTableViewDelegate-Protocol.h */,
+				DDCA1D542061375300A351AA /* NSTextFieldDelegate-Protocol.h */,
+				DDCA1D552061375300A351AA /* NSTokenFieldDelegate-Protocol.h */,
+				DDCA1D562061375300A351AA /* NSWindowDelegate-Protocol.h */,
+				DDCA1D572061375300A351AA /* SMAboutWindowController.h */,
+				DDCA1D582061375300A351AA /* SMAcknowledgmentsWindowController.h */,
+				DDCA1D592061375300A351AA /* SMAppDelegate.h */,
+				DDCA1D5A2061375300A351AA /* SMAttachWindowController.h */,
+				DDCA1D5B2061375300A351AA /* SMAttachWindowControllerDelegate-Protocol.h */,
+				DDCA1D5C2061375300A351AA /* SMAuthorizedInjector.h */,
+				DDCA1D5D2061375300A351AA /* SMAutoresizingSelectionView.h */,
+				DDCA1D5E2061375300A351AA /* SMComponentContentController.h */,
+				DDCA1D5F2061375300A351AA /* SMComponentContentControllerDelegate-Protocol.h */,
+				DDCA1D602061375300A351AA /* SMComponentOutlineController.h */,
+				DDCA1D612061375300A351AA /* SMComponentOutlineControllerDelegate-Protocol.h */,
+				DDCA1D622061375300A351AA /* SMComponentPathController.h */,
+				DDCA1D632061375300A351AA /* SMComponentPathControllerDelegate-Protocol.h */,
+				DDCA1D642061375300A351AA /* SMComponentsInspector.h */,
+				DDCA1D652061375300A351AA /* SMComponentStatusTransformer.h */,
+				DDCA1D662061375300A351AA /* SMConnectedView.h */,
+				DDCA1D672061375300A351AA /* SMDeclarativeInspectorGeneratorDelegate-Protocol.h */,
+				DDCA1D682061375300A351AA /* SMEnterLicenseViewController.h */,
+				DDCA1D692061375300A351AA /* SMEnterLicenseViewControllerDelegate-Protocol.h */,
+				DDCA1D6A2061375300A351AA /* SMImageAndTextFieldCell.h */,
+				DDCA1D6B2061375300A351AA /* SMInjector-Protocol.h */,
+				DDCA1D6C2061375300A351AA /* SMInjectorInstaller-Protocol.h */,
+				DDCA1D6D2061375300A351AA /* SMInspectorAdvancedPreTenFourDateFormatProperty.h */,
+				DDCA1D6E2061375300A351AA /* SMInspectorAdvancedTenFourDateFormatProperty.h */,
+				DDCA1D6F2061375300A351AA /* SMInspectorAutoresizingProperty.h */,
+				DDCA1D702061375300A351AA /* SMInspectorBasicPreTenFourDateFormatProperty.h */,
+				DDCA1D712061375300A351AA /* SMInspectorBasicTenFourDateFormatProperty.h */,
+				DDCA1D722061375300A351AA /* SMInspectorDateFormatSampleProperty.h */,
+				DDCA1D732061375300A351AA /* SMInspectorFactory.h */,
+				DDCA1D742061375300A351AA /* SMInspectorPoint3DProperty.h */,
+				DDCA1D752061375300A351AA /* SMInspectorPrioritiesListProperty.h */,
+				DDCA1D762061375300A351AA /* SMInterface.h */,
+				DDCA1D772061375300A351AA /* SMInterfaceComponent.h */,
+				DDCA1D782061375300A351AA /* SMInterfaceComponentDelegate-Protocol.h */,
+				DDCA1D792061375300A351AA /* SMInterfaceConnectionController.h */,
+				DDCA1D7A2061375300A351AA /* SMInterfaceConnectionControllerDelegate-Protocol.h */,
+				DDCA1D7B2061375300A351AA /* SMInterfaceServer.h */,
+				DDCA1D7C2061375300A351AA /* SMInterfaceServerDelegate-Protocol.h */,
+				DDCA1D7D2061375300A351AA /* SMInterfaceTreeNode.h */,
+				DDCA1D7E2061375300A351AA /* SMInterpolatedImageView.h */,
+				DDCA1D7F2061375300A351AA /* SMInvalidLicenseViewController.h */,
+				DDCA1D802061375300A351AA /* SMInvalidLicenseViewControllerDelegate-Protocol.h */,
+				DDCA1D812061375300A351AA /* SMJumpToInstanceSheetController.h */,
+				DDCA1D822061375300A351AA /* SMJumpToInstanceSheetControllerDelegate-Protocol.h */,
+				DDCA1D832061375300A351AA /* SMLicenseManager.h */,
+				DDCA1D842061375300A351AA /* SMLicenseWindowController.h */,
+				DDCA1D852061375300A351AA /* SMLicenseWindowControllerDelegate-Protocol.h */,
+				DDCA1D862061375300A351AA /* SMMainWindowController.h */,
+				DDCA1D872061375300A351AA /* SMNSEdgeInsetsTransformer.h */,
+				DDCA1D882061375300A351AA /* SMOutlineTableCellView.h */,
+				DDCA1D892061375300A351AA /* SMPathCell.h */,
+				DDCA1D8A2061375300A351AA /* SMPathComponentCell.h */,
+				DDCA1D8B2061375300A351AA /* SMProgressSheetController.h */,
+				DDCA1D8C2061375300A351AA /* SMSCNVector3Transformer.h */,
+				DDCA1D8D2061375300A351AA /* SMServer.h */,
+				DDCA1D8E2061375300A351AA /* SMServerDelegate-Protocol.h */,
+				DDCA1D8F2061375300A351AA /* SMService.h */,
+				DDCA1D902061375300A351AA /* SMServiceDelegate-Protocol.h */,
+				DDCA1D912061375300A351AA /* SMTableRowView.h */,
+				DDCA1D922061375300A351AA /* SMToken.h */,
+				DDCA1D932061375300A351AA /* SMTypesFactory.h */,
+				DDCA1D942061375300A351AA /* SMValidLicenseViewController.h */,
+				DDCA1D952061375300A351AA /* SMValidLicenseViewControllerDelegate-Protocol.h */,
+				DDCA1D962061375300A351AA /* SMWaitingWindowController.h */,
+				DDCA1D972061375300A351AA /* SUUpdaterDelegate-Protocol.h */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDCA1D2F206136E200A351AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA1DB52061375400A351AA /* SMAttachWindowControllerDelegate-Protocol.h in Headers */,
+				DDCA1DA72061375400A351AA /* NSPasteboardReading-Protocol.h in Headers */,
+				DDCA1DD02061375400A351AA /* SMInterface.h in Headers */,
+				DDCA1D992061375300A351AA /* CFobLicVerifier.h in Headers */,
+				DDCA1DC02061375400A351AA /* SMConnectedView.h in Headers */,
+				DDCA1DE22061375400A351AA /* SMOutlineTableCellView.h in Headers */,
+				DDCA1DC22061375400A351AA /* SMEnterLicenseViewController.h in Headers */,
+				DDCA1DBA2061375400A351AA /* SMComponentOutlineController.h in Headers */,
+				DDCA1DE12061375400A351AA /* SMNSEdgeInsetsTransformer.h in Headers */,
+				DDCA1DEA2061375400A351AA /* SMServiceDelegate-Protocol.h in Headers */,
+				DDCA1DD42061375400A351AA /* SMInterfaceConnectionControllerDelegate-Protocol.h in Headers */,
+				DDCA1DAC2061375400A351AA /* NSTableViewDataSource-Protocol.h in Headers */,
+				DDCA1DCE2061375400A351AA /* SMInspectorPoint3DProperty.h in Headers */,
+				DDCA1DE62061375400A351AA /* SMSCNVector3Transformer.h in Headers */,
+				DDCA1DAD2061375400A351AA /* NSTableViewDelegate-Protocol.h in Headers */,
+				DDCA1DD32061375400A351AA /* SMInterfaceConnectionController.h in Headers */,
+				DDCA1DD12061375400A351AA /* SMInterfaceComponent.h in Headers */,
+				DDCA1DC82061375400A351AA /* SMInspectorAdvancedTenFourDateFormatProperty.h in Headers */,
+				DDCA1D9B2061375400A351AA /* GCDAsyncSocket.h in Headers */,
+				DDCA1DDD2061375400A351AA /* SMLicenseManager.h in Headers */,
+				DDCA1DE32061375400A351AA /* SMPathCell.h in Headers */,
+				DDCA1DAB2061375400A351AA /* NSRunningApplication-SMSandbox.h in Headers */,
+				DDCA1DEC2061375400A351AA /* SMToken.h in Headers */,
+				DDCA1D9E2061375400A351AA /* GCDAsyncWritePacket.h in Headers */,
+				DDCA1DBC2061375400A351AA /* SMComponentPathController.h in Headers */,
+				DDCA1DC42061375400A351AA /* SMImageAndTextFieldCell.h in Headers */,
+				DDCA1DB62061375400A351AA /* SMAuthorizedInjector.h in Headers */,
+				DDCA1DD92061375400A351AA /* SMInvalidLicenseViewController.h in Headers */,
+				DDCA1DB82061375400A351AA /* SMComponentContentController.h in Headers */,
+				DDCA1DCD2061375400A351AA /* SMInspectorFactory.h in Headers */,
+				DDCA1DA02061375400A351AA /* NSControlTextEditingDelegate-Protocol.h in Headers */,
+				DDCA1DB12061375400A351AA /* SMAboutWindowController.h in Headers */,
+				DDCA1DCF2061375400A351AA /* SMInspectorPrioritiesListProperty.h in Headers */,
+				DDCA1DC12061375400A351AA /* SMDeclarativeInspectorGeneratorDelegate-Protocol.h in Headers */,
+				DDCA1DC52061375400A351AA /* SMInjector-Protocol.h in Headers */,
+				DDCA1D9A2061375400A351AA /* GCDAsyncReadPacket.h in Headers */,
+				DDCA1DDA2061375400A351AA /* SMInvalidLicenseViewControllerDelegate-Protocol.h in Headers */,
+				DDCA1DE72061375400A351AA /* SMServer.h in Headers */,
+				DDCA1DA42061375400A351AA /* NSObject-Protocol.h in Headers */,
+				DDCA1DC72061375400A351AA /* SMInspectorAdvancedPreTenFourDateFormatProperty.h in Headers */,
+				DDCA1D9D2061375400A351AA /* GCDAsyncSpecialPacket.h in Headers */,
+				DDCA1DB02061375400A351AA /* NSWindowDelegate-Protocol.h in Headers */,
+				DDCA1DA62061375400A351AA /* NSOutlineViewDelegate-Protocol.h in Headers */,
+				DDCA1DB32061375400A351AA /* SMAppDelegate.h in Headers */,
+				DDCA1DE52061375400A351AA /* SMProgressSheetController.h in Headers */,
+				DDCA1DC32061375400A351AA /* SMEnterLicenseViewControllerDelegate-Protocol.h in Headers */,
+				DDCA1DE02061375400A351AA /* SMMainWindowController.h in Headers */,
+				DDCA1DAF2061375400A351AA /* NSTokenFieldDelegate-Protocol.h in Headers */,
+				DDCA1DDE2061375400A351AA /* SMLicenseWindowController.h in Headers */,
+				DDCA1DF02061375400A351AA /* SMWaitingWindowController.h in Headers */,
+				DDCA1D982061375300A351AA /* CDStructures.h in Headers */,
+				DDCA1DA52061375400A351AA /* NSOutlineViewDataSource-Protocol.h in Headers */,
+				DDCA1D9C2061375400A351AA /* GCDAsyncSocketPreBuffer.h in Headers */,
+				DDCA1DC62061375400A351AA /* SMInjectorInstaller-Protocol.h in Headers */,
+				DDCA1DBF2061375400A351AA /* SMComponentStatusTransformer.h in Headers */,
+				DDCA1DAE2061375400A351AA /* NSTextFieldDelegate-Protocol.h in Headers */,
+				DDCA1DA32061375400A351AA /* NSNetServiceDelegate-Protocol.h in Headers */,
+				DDCA1DDB2061375400A351AA /* SMJumpToInstanceSheetController.h in Headers */,
+				DDCA1DA12061375400A351AA /* NSKeyedUnarchiverDelegate-Protocol.h in Headers */,
+				DDCA1DBD2061375400A351AA /* SMComponentPathControllerDelegate-Protocol.h in Headers */,
+				DDCA1D9F2061375400A351AA /* NSApplicationDelegate-Protocol.h in Headers */,
+				DDCA1DA22061375400A351AA /* NSMenuDelegate-Protocol.h in Headers */,
+				DDCA1DEE2061375400A351AA /* SMValidLicenseViewController.h in Headers */,
+				DDCA1DED2061375400A351AA /* SMTypesFactory.h in Headers */,
+				DDCA1DD72061375400A351AA /* SMInterfaceTreeNode.h in Headers */,
+				DDCA1DBB2061375400A351AA /* SMComponentOutlineControllerDelegate-Protocol.h in Headers */,
+				DDCA1DB72061375400A351AA /* SMAutoresizingSelectionView.h in Headers */,
+				DDCA1DD52061375400A351AA /* SMInterfaceServer.h in Headers */,
+				DDCA1DDC2061375400A351AA /* SMJumpToInstanceSheetControllerDelegate-Protocol.h in Headers */,
+				DDCA1DA92061375400A351AA /* NSRunningApplication-SMConnected.h in Headers */,
+				DDCA1DF12061375400A351AA /* SUUpdaterDelegate-Protocol.h in Headers */,
+				DDCA1DE92061375400A351AA /* SMService.h in Headers */,
+				DDCA1DBE2061375400A351AA /* SMComponentsInspector.h in Headers */,
+				DDCA1DA82061375400A351AA /* NSPasteboardWriting-Protocol.h in Headers */,
+				DDCA1DE42061375400A351AA /* SMPathComponentCell.h in Headers */,
+				DDCA1DB42061375400A351AA /* SMAttachWindowController.h in Headers */,
+				DDCA1DCA2061375400A351AA /* SMInspectorBasicPreTenFourDateFormatProperty.h in Headers */,
+				DDCA1DEF2061375400A351AA /* SMValidLicenseViewControllerDelegate-Protocol.h in Headers */,
+				DDCA1DB92061375400A351AA /* SMComponentContentControllerDelegate-Protocol.h in Headers */,
+				DDCA1DEB2061375400A351AA /* SMTableRowView.h in Headers */,
+				DDCA1DD82061375400A351AA /* SMInterpolatedImageView.h in Headers */,
+				DDCA1DC92061375400A351AA /* SMInspectorAutoresizingProperty.h in Headers */,
+				DDCA1DD22061375400A351AA /* SMInterfaceComponentDelegate-Protocol.h in Headers */,
+				DDCA1DDF2061375400A351AA /* SMLicenseWindowControllerDelegate-Protocol.h in Headers */,
+				DDCA1DCC2061375400A351AA /* SMInspectorDateFormatSampleProperty.h in Headers */,
+				DDCA1DD62061375400A351AA /* SMInterfaceServerDelegate-Protocol.h in Headers */,
+				DDCA1DE82061375400A351AA /* SMServerDelegate-Protocol.h in Headers */,
+				DDCA1DAA2061375400A351AA /* NSRunningApplication-SMName.h in Headers */,
+				DDCA1DB22061375400A351AA /* SMAcknowledgmentsWindowController.h in Headers */,
+				DDCA1DCB2061375400A351AA /* SMInspectorBasicTenFourDateFormatProperty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDCA1D30206136E200A351AA /* Interface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA1D3A206136E200A351AA /* Build configuration list for PBXNativeTarget "Interface" */;
+			buildPhases = (
+				DDCA1D2D206136E200A351AA /* Sources */,
+				DDCA1D2E206136E200A351AA /* Frameworks */,
+				DDCA1D2F206136E200A351AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interface;
+			productName = Interface;
+			productReference = DDCA1D31206136E200A351AA /* libInterface.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCA1D29206136E200A351AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = In8;
+				TargetAttributes = {
+					DDCA1D30206136E200A351AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDCA1D2C206136E200A351AA /* Build configuration list for PBXProject "Interface" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDCA1D28206136E200A351AA;
+			productRefGroup = DDCA1D32206136E200A351AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCA1D30206136E200A351AA /* Interface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCA1D2D206136E200A351AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA1D37206136E200A351AA /* Interface.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDCA1D38206136E200A351AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/opt/MonkeyDev/include/CaptainHook/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDCA1D39206136E200A351AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/opt/MonkeyDev/include/CaptainHook/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDCA1D3B206136E200A351AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8WB84C9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDCA1D3C206136E200A351AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL8WB84C9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCA1D2C206136E200A351AA /* Build configuration list for PBXProject "Interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA1D38206136E200A351AA /* Debug */,
+				DDCA1D39206136E200A351AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA1D3A206136E200A351AA /* Build configuration list for PBXNativeTarget "Interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA1D3B206136E200A351AA /* Debug */,
+				DDCA1D3C206136E200A351AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCA1D29206136E200A351AA /* Project object */;
+}
